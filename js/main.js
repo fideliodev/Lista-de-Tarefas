@@ -58,32 +58,3 @@ document.addEventListener('click', function(e) {
 });
 
 
-//setatribuite
-
-/*function salvarTarefas() {
-    const liTarefas = tarefas.querySelectorAll('li');
-    const listaDeTarefas = []
-
-    for (let tarefa2 of liTarefas) {
-        let tarefaTexto = tarefa2.innerText;
-        //replace = substituir e trim remove espaço 
-        tarefaTexto = tarefaTexto.replace('Apagar', '');
-        listaDeTarefas.push(tarefaTexto);
-
-    }
-    // guardar as tarefas json
-    const tarefasJSON = JSON.stringify(listaDeTarefas)
-    localStorage.setItem('tarefas2', tarefasJSON);
-    console.log(tarefasJSON);
-
-}
-
-//
-function adicionarTarefasSalvas() {
-    const tarefas3 = localStorage.get('tarefas2')
-    const listaTarefasSalvas = JSON.parse(tarefas3);
-    for (let tarefa4 of listaDeTarefas) {
-        criaTarefa(tarefa4)
-    }
-}
-adicionarTarefasSalvas(); */
